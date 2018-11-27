@@ -33,7 +33,7 @@ function App(props) {
 export default connect(
   ({ user }) => ({
     count: user.get('count'),
-    data: user.get('data'),
+    data: user.toJSON(),
   }),
   dispatch => ({
     addCount(num) {

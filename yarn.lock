@@ -7026,9 +7026,9 @@ redux-actions@^2.6.4:
     reduce-reducers "^0.4.3"
     to-camel-case "^1.0.0"
 
-redux-auto-local-storage@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/redux-auto-local-storage/-/redux-auto-local-storage-0.0.4.tgz#2ebefce35bda1bcfc61544ef4191542a5ed572a8"
+redux-auto-local-storage@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/redux-auto-local-storage/-/redux-auto-local-storage-0.0.5.tgz#0f356a365f47530d57dd350d1f6afc5cfdbcc1fa"
 
 redux-saga@^0.16.2:
   version "0.16.2"

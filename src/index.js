@@ -7,7 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
-reduxAutoLocalStorage(store, 'saga-test3', ['user']);
+reduxAutoLocalStorage(store, 'saga-test-local', ['user']);
 initReactFastclick();
 
 ReactDOM.render(

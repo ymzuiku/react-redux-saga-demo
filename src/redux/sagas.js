@@ -5,9 +5,8 @@ import types from './types';
 function* sagaFetchUser({ res }) {
   try {
     const res = yield call(axios.get, [
-      'https://dev-main.bindo.io/api/v4/stores/6862/favorite_tabs/76348/favorite_sections?page=1&per_page=999&with_details=true',
+      'https://pixabay.com/api/?key=8089180-a586bdfbeea5884bd5e24a138',
     ]);
-    console.log(res);
     yield put({ type: types.userUpdateAuth, payload: res });
   } catch (error) {
     yield put({ type: types.errorFetchFainl, payload: error });

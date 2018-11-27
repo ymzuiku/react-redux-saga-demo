@@ -22,6 +22,7 @@ function App(props) {
           </a>
           <button onClick={handleAddCount}>add</button>
           <button onClick={handleFetchData}>fetch</button>
+          <div>{JSON.stringify(props.data)}</div>
         </header>
       </div>
     );
@@ -32,6 +33,7 @@ function App(props) {
 export default connect(
   ({ user }) => ({
     count: user.get('count'),
+    data: user.get('data'),
   }),
   dispatch => ({
     addCount(num) {

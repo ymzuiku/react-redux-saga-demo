@@ -35,7 +35,7 @@ export default connect(
   }),
   dispatch => ({
     addCount(num) {
-      dispatch({ type: types.userAddCount, res: { count: num } });
+      dispatch({ type: types.userAddCount, payload: { count: num } });
     },
     sagaFetchUser(){
       dispatch({type: types.sagaFetchUser})

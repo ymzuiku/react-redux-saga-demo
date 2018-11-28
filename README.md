@@ -6,7 +6,10 @@
 - redux-action: action映射reducer, 简化action和reducer的编写
 - redux-auto-local-storage: 自动持久化某些store.getState()的keys, 兼容immutable对象
 - immutable: 不可变对象
+<<<<<<< HEAD
 
 ## redux-thunk 和 redux-saga 的区别
 
 ![saga-thunk](.img/saga-thunk.png)
+=======
+>>>>>>> 62640c57f6a164cb5f1b3de2e0823e275ea46945

@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 .idea
+=======
+>>>>>>> 62640c57f6a164cb5f1b3de2e0823e275ea46945
 
 # testing
 /coverage

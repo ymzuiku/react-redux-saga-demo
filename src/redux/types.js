@@ -3,6 +3,7 @@ export default {
   userRemoveCount: 'userRemoveCount',
   userUpdateAuth: 'userUpdateAuth',
   errorFetchFainl: 'errorFetchFainl',
+  // -- sage --
   sagaFetchUser: 'sagaFetchUser',
   sageUserUpdateAuth: 'sageUserUpdateAuth',
 };
